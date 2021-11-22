@@ -1,0 +1,18 @@
+﻿<Window x:Class="AppFeleves.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppFeleves"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="534">
+    <Grid HorizontalAlignment="Center" Width="534">
+        <Label Content="" Height="32" HorizontalAlignment="Left" Margin="15,10,0,0" Name="FileNameLabel" VerticalAlignment="Top" Width="393" Background="LightGray" BorderBrush="Gray" BorderThickness="1" />
+        <Button Content="Keresés" Height="32" HorizontalAlignment="Left" Margin="410,10,0,0" Name="BrowseButton" VerticalAlignment="Top" Width="119" Foreground="Maroon" FontSize="16" FontFamily="Georgia" Click="BrowseButton_Click" />
+        <Image Height="305" HorizontalAlignment="Left" Margin="15,50,0,0" Name="ImageControl" Stretch="Uniform" VerticalAlignment="Top" Width="390" />
+        <Button Content="Edge detection" FontFamily="Georgia" FontSize="12" Foreground="Maroon" Height="26" HorizontalAlignment="Left" Margin="410,61,0,0" Name="EdgeButton" VerticalAlignment="Top" Width="119" Click="EdgeButton_Click" />
+        <Button Content="Mentés" HorizontalAlignment="Left" Margin="348,374,0,0" VerticalAlignment="Top" Height="28" Width="60" Click="Button_Click"/>
+        <TextBox Name="saveName" HorizontalAlignment="Left" Margin="15,374,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Height="28"/>
+        <Button Content="Sharpen" FontFamily="Georgia" FontSize="12" Foreground="Maroon" Height="26" HorizontalAlignment="Left" Margin="410,92,0,0" x:Name="Sharpen" VerticalAlignment="Top" Width="119" Click="Sharpen_Click" />
+    </Grid>
+</Window>
